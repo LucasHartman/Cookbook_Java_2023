@@ -61,4 +61,10 @@ git push -u origin main
 
 
 
+# PUSH COMMITTED
+
+git add *
+git commit -m "added some changes to my repo!"
+git push --all 'https://github.com/LucasHartman/Cookbook_Java_2023.git'
+
 */

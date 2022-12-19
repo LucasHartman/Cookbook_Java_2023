@@ -1,5 +1,5 @@
 {
-    "cSpell.words": [
-        "javac"
+    "java.project.referencedLibraries": [
+        "lib/lombok.jar"
     ]
 }

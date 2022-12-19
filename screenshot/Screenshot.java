@@ -19,14 +19,23 @@ public class Screenshot{
         String filePath = root +now +fileName + fileType;
 
         try {
+            // CURRENTLY EXECUTING THREAD
             Thread.sleep(120);
+
+            // GENERATE NATIVE SYSTEM INPUT EVENT
             Robot r 
                 = new Robot();
+
+            // SPECIFIED AN AREA IN COORDINATE SPACE
             Rectangle capture = new Rectangle(Toolkit
                 .getDefaultToolkit()
                 .getScreenSize());
+
+            // CAPTURE SCREEN
             BufferedImage Image = r
                 .createScreenCapture(capture);
+
+            // WRITE TO IMAGE
             ImageIO
                 .write(Image, "jpg", new File(filePath));
 
