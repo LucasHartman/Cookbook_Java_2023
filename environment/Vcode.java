@@ -7,7 +7,7 @@ public class Vcode {
 /*
 
 # ADD LOCAL DEPENDENCY
-Get Dependency          Download .jar file
+Get Dependency          Download .jar file 
 Location:               .vscode/settings.json
 Add Dependency          
                         "java.project.referencedLibraries": [
