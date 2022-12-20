@@ -1,5 +1,6 @@
 {
     "java.project.referencedLibraries": [
-        "lib/lombok.jar"
+        "lib/lombok.jar",
+        "lib/jfreechart-1.5.3"
     ]
 }
