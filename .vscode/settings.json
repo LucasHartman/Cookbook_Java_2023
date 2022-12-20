@@ -1,6 +1,19 @@
 {
     "java.project.referencedLibraries": [
         "lib/lombok.jar",
-        "lib/jfreechart-1.5.3"
+        "lib/jfreechart.jar",
+        "lib/lwjgl/lwjgl.jar",
+        "lib/lwjgl/lwjgl-javadoc.jar",
+        "lib/lwjgl/lwjgl-natives-windows.jar",
+        "lib/lwjgl/lwjgl-openal.jar",
+        "lib/lwjgl/lwjgl-openal-javadoc.jar",
+        "lib/lwjgl/lwjgl-openal-natives-windows.jar",
+        "lib/lwjgl/lwjgl-openal-sources.jar",
+        "lib/lwjgl/lwjgl-openal-sources.jar"
+    ],
+    "cSpell.words": [
+        "lwjgl",
+        "openal"
     ]
+    
 }
